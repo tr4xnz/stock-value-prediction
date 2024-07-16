@@ -1,0 +1,5 @@
+Flask==3.0.3
+plotly==5.22.0
+prophet==1.1.2
+holidays==0.10.5.2
+yfinance==0.2.40
