@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Price Prediction</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="plotlyGraph"></div>
+    <script>
+        var graph = {{ graphJSON | safe }};
+        Plotly.newPlot('plotlyGraph', graph.data, graph.layout);
+    </script>
+</body>
+</html>
